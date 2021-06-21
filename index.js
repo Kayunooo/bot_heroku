@@ -92,7 +92,7 @@ Client.on("message", message => {
         }
         else {
             mention.roles.remove("856668772580851712");
-            message.channel.send(mention.displayName +"à bien été unmute !");
+            message.channel.send(mention.displayName +" à bien été unmute !");
         }
     }
     else if(message.content.startsWith(prefix + "tempmute")){
