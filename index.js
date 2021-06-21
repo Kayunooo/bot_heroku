@@ -38,7 +38,7 @@ Client.on("message", message =>{
 });
 
 Client.on("message", message => {
-    if(message.member.hasPermission("ADMINISTRATOR")){
+    if(message.member.hasPermission("MODERATOR")){
         if(message.content.startsWith(prefix + "ban")){
             let mention =message.mentions.members.first();
 
