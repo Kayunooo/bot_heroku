@@ -80,7 +80,7 @@ Client.on("message", message => {
         }
         else {
             mention.roles.add("856668772580851712");
-            message.reply(mention.displayName + "à bien été mute !");
+            message.reply(mention.displayName + " à bien été mute !");
         }
     }
     else if(message.content.startsWith(prefix + "unmute")){
